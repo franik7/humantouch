@@ -4,6 +4,9 @@
 	box-sizing: border-box;
 }
 
+body {
+  background-color: #f8f9fa;
+}
 
 label,
 input,
@@ -43,11 +46,17 @@ footer a {
 	margin: 0;
 	height: 100vh;
 	width: 100vw;
-	max-width: 100%;
-	object-fit: cover;
+	max-width: auto;
+
 
 }
 
+.half-left-bottom img {
+		padding-top: 0%;
+		display: flex;
+		flex-direction: column;
+		width:100%;
+}
 
 .info {
 	justify-content: center;
@@ -55,17 +64,15 @@ footer a {
 }
 
 .navtext {
-font-size: 25px;
+font-size: 20px;
 justify-items: center;
 }
 
 .navbar .container-fluid {
-font-size: 25px;
+font-size: 20px;
 }
 
-.logohistory {
-	justify-content: f;
-}
+
 
 @media only screen and (max-width: 991px) {
 
@@ -85,5 +92,13 @@ font-size: 25px;
 		display: flex;
 		flex-direction: column-reverse;
 	}
+
+	.half-left-bottom img {
+		object-fit: contain;
+		padding-top: 0%;
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+}
 }
 
