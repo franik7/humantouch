@@ -1,47 +1,25 @@
-<!--
-<nav class="navbar navbar-dark bg-dark">
-
-
-			<h1>Human Touch</h1>
-	<ul>
-
-
-
-
-		<li>
-			<a href="index.php">HOME</a>
-		</li>
-		<li>
-			<a href="history.php">HISTORY</a>
-		</li>
-
-	</ul>
-	</ul>
-
-</nav>
-
--->
-
-
-<nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid ">
-	<img src = "assets/img/logo.png" alt="Human Touch" width="60" height="60">
-	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar bg-light">
+  <div class="container-fluid">
+	  <div class = "navtext"><a href="index.php"><img src = "assets/img/logo.png" alt="Human Touch" width="60" height="60"></a></div>
+	<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
 	  <span class="navbar-toggler-icon"></span>
 	</button>
-	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-	  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-		<li class="nav-item">
-			<a class="nav-link active" aria-current="page" href="index.php"><b>Home</b></a>
+	<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+	  <div class="offcanvas-header">
+		<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Human Touch</h5>
+		<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	  </div>
+	  <div class="offcanvas-body">
+		<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+		  <li class="nav-item">
+			<a class="nav-link active" aria-current="page" href="index.php">Home</a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link" href="history.php"><b>History</b></a>
+			<a class="nav-link" href="history.php">History</a>
 		</li>
+		</ul>
 
-
-	  </ul>
-
+	  </div>
 	</div>
   </div>
 </nav>
-

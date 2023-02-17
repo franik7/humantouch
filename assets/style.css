@@ -1,6 +1,6 @@
 * {
 	font-family: 'Hind Siliguri', sans-serif;
-	color: #555;
+	color: black;
 	box-sizing: border-box;
 }
 
@@ -29,7 +29,6 @@ table td img {
 }
 
 
-
 footer {
 	text-align: center;
 }
@@ -55,8 +54,17 @@ footer a {
 	align-items: center;
 }
 
-.navbar {
+.navtext {
 font-size: 25px;
+justify-items: center;
+}
+
+.navbar .container-fluid {
+font-size: 25px;
+}
+
+.logohistory {
+	justify-content: f;
 }
 
 @media only screen and (max-width: 991px) {
