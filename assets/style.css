@@ -11,7 +11,7 @@ body {
 label,
 input,
 p {
-	font-size: 16px;
+	font-size: 22px;
 }
 
 table {
@@ -46,13 +46,14 @@ footer a {
 	margin: 0;
 	height: 100vh;
 	width: 100vw;
-	max-width: auto;
-
+	max-width: 100%;
+	object-fit: cover;
 
 }
 
-.half-left-bottom img {
-		padding-top: 0%;
+.half-left-middle img {
+		padding: 0%;
+		margin: 0%;
 		display: flex;
 		flex-direction: column;
 		width:100%;
@@ -63,6 +64,9 @@ footer a {
 	align-items: center;
 }
 
+
+
+
 .navtext {
 font-size: 20px;
 justify-items: center;
@@ -72,6 +76,10 @@ justify-items: center;
 font-size: 20px;
 }
 
+.midsectionhr {
+	margin: 0%;
+	padding: 0%;
+}
 
 
 @media only screen and (max-width: 991px) {
@@ -88,10 +96,12 @@ font-size: 20px;
 		padding-top:10px;
 	}
 
-	.row {
+	.order {
 		display: flex;
 		flex-direction: column-reverse;
 	}
+
+
 
 	.half-left-bottom img {
 		object-fit: contain;
