@@ -11,7 +11,7 @@ body {
 label,
 input,
 p {
-	font-size: 22px;
+	font-size: 16px;
 }
 
 table {
@@ -85,6 +85,14 @@ font-size: 20px;
 @media only screen and (max-width: 991px) {
 
 	.half-right img {
+		object-fit: contain;
+		padding-top: 0%;
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+	}
+
+	.half-right{
 		object-fit: contain;
 		padding-top: 0%;
 		display: flex;
