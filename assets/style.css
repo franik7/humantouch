@@ -15,20 +15,30 @@ p {
 }
 
 table {
-	border: 1px #000 solid;
+	border: 2px #5A5A5A solid;
 	padding: 5px;
 	margin: 0 auto;
 	width: 90%;
-}
+
+	}
 
 table td {
-	border: 1px #ddd solid;
+	border: 2px #5A5A5A solid;
 	padding: 10px;
+}
 
+table tr th {
+	border: 2px #5A5A5A solid;
+	padding: 10px;
+}
+
+table tr td i {
+	color: forestgreen;
 }
 
 table td img {
 	width: 100px;
+
 }
 
 
@@ -119,4 +129,5 @@ font-size: 20px;
 		height: 100%;
 }
 }
+
 

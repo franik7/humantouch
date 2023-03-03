@@ -12,6 +12,9 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap" rel="stylesheet">
+
+	<script src="https://kit.fontawesome.com/3e428fbdcd.js" crossorigin="anonymous"></script>
+
 </head>
 
 <!-- End of Head -->
@@ -76,11 +79,11 @@
 					</div>
 					Please make a selection:<span style="color: red !important; display: inline; float: none;">*</span>
 					<div class="custom-control custom-radio">
-						<input type="radio" name="letterorpostcard" class="custom-control-input" id="customControlValidation2" name="radio-stacked" required>
+						<input type="radio" name="letterorpostcard" class="custom-control-input" id="customControlValidation2" name="radio-stacked" value = "letter" required >
 						<label class="custom-control-label" for="customControlValidation2">Letter</label>
 					</div>
 					<div class="custom-control custom-radio mb-1">
-						<input type="radio" class="custom-control-input" id="customControlValidation3" name="letterorpostcard" required>
+						<input type="radio" class="custom-control-input" id="customControlValidation3" name="letterorpostcard" value = "postcard" required>
 						<label class="custom-control-label" for="customControlValidation3">Postcard</label>
 						<div class="invalid-feedback">Please make a selection</div>
 					</div>

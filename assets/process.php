@@ -33,7 +33,7 @@
 
 //uploading the image
 $t = $_FILES['pic']['tmp_name'];
-$i = 'img/userimgs'.$_FILES['pic']['name'];
+$i = 'img/userimgs/'.$_FILES['pic']['name'];
 move_uploaded_file($t, $i);
 
 $a = $_POST;
