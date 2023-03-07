@@ -88,7 +88,7 @@ how to implement default image if no image is selected
 
 	<center><img src="assets/img/logo.png" alt="Human Touch" width="160" height="160">
 	</center>
-	<hr>
+
 
 
 
