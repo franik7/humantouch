@@ -50,24 +50,34 @@ how to implement default image if no image is selected
 		foreach($d as $i => $v){
 		echo'
 		<tr>
-			<td>'.$i.'</td>
-			<td><img src="assets/'.$v['img'].'"></td>
+			<td>'.$i.'</td>';
+
+			if( substr($v['img'], -3, 3) == 'jpg' || substr($v['img'], -3, 3) || substr($v['img'], -3, 3) == 'gif' || substr($v['img'], -4, 4) == 'jpeg') {
+				echo '<td><img src="assets/'.$v['img'].'"></td>';
+			}
+			else {
+				echo '<td><img src="assets/img/userimgs/defaultavatar.png"></td>';
+			}
+			;
+			echo '
 			<td>'.$v["nickname"].'</td>
 			<td>'.$v["country"].'</td>
-			<td><i class="fa-regular fa-square fa-3x"></i> </td>
-					</tr>
+
 		';
+			if($v["sent"]){
+				echo '<td><i class="fa-regular fa-square-check fa-3x"></i>
+		 </td>';
+			}else{
+			 echo '<td><i class="fa-regular fa-square fa-3x"></i>
+		 </td>';
+
+			};
+			echo '</tr>';
 
 		};
 		?>
 
 
-<?php
-	 if(file_exists("$v.jpg")) $filename = "$v.jpg";
-	 else $filename = "default.jpg";
-
-	 echo "<img src=assets/img/usrimgs/'$defaultavatar.png'/>";
-?>
 
 
 

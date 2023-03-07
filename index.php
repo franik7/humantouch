@@ -79,11 +79,11 @@
 					</div>
 					Please make a selection:<span style="color: red !important; display: inline; float: none;">*</span>
 					<div class="custom-control custom-radio">
-						<input type="radio" name="letterorpostcard" class="custom-control-input" id="customControlValidation2" name="radio-stacked" value = "letter" required >
+						<input type="radio" name="letterorpostcard" class="custom-control-input" id="customControlValidation2" name="radio-stacked" value="letter" required>
 						<label class="custom-control-label" for="customControlValidation2">Letter</label>
 					</div>
 					<div class="custom-control custom-radio mb-1">
-						<input type="radio" class="custom-control-input" id="customControlValidation3" name="letterorpostcard" value = "postcard" required>
+						<input type="radio" class="custom-control-input" id="customControlValidation3" name="letterorpostcard" value="postcard" required>
 						<label class="custom-control-label" for="customControlValidation3">Postcard</label>
 						<div class="invalid-feedback">Please make a selection</div>
 					</div>
@@ -91,6 +91,7 @@
 						<div class="mb-1">What image describes your mood right now?</div>
 						<input type="file" name="pic">
 					</label>
+					<input type="hidden" value=false name="sent">
 					<br>
 					<br>
 					<button class="btn btn-primary" type="submit">Submit form</button>
@@ -166,9 +167,11 @@
 				});
 			}, false);
 		})();
+
 	</script>
 
 	<!-- JS End -->
 
 </body>
+
 </html>

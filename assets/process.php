@@ -37,6 +37,7 @@ $i = 'img/userimgs/'.$_FILES['pic']['name'];
 move_uploaded_file($t, $i);
 
 $a = $_POST;
+$a['sent'] = filter_var($a['sent'], FILTER_VALIDATE_BOOLEAN);
 $a['img'] = $i;
 
 //print_r( $a );
