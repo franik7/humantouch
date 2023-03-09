@@ -6,9 +6,6 @@ how to implement default image if no image is selected
 
 
 <html lang="en">
-
-
-
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,12 +19,9 @@ how to implement default image if no image is selected
 	<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap" rel="stylesheet">
 
 	<script src="https://kit.fontawesome.com/3e428fbdcd.js" crossorigin="anonymous"></script>
-
 </head>
 
 <?php require_once('assets/partials/nav.php');?>
-
-
 
 <body>
 	<div>
@@ -41,12 +35,10 @@ how to implement default image if no image is selected
 				<th>COUNTRY</th>
 				<th>SENT</th>
 			</tr>
-
-
 			<?php
 		$d = file_get_contents("assets/data.json");
 		$d = json_decode($d,true);
-//		print_r($d);
+
 		foreach($d as $i => $v){
 		echo'
 		<tr>
@@ -76,12 +68,6 @@ how to implement default image if no image is selected
 
 		};
 		?>
-
-
-
-
-
-
 		</table>
 	</div>
 	<br>
@@ -89,17 +75,9 @@ how to implement default image if no image is selected
 	<center><img src="assets/img/logo.png" alt="Human Touch" width="160" height="160">
 	</center>
 
-
-
-
-
 	<?php require_once('assets/partials/footer.php');?>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
-
-
-
 </body>
-
 </html>

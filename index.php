@@ -65,10 +65,10 @@
 							</div>
 						</div>
 						<div class="col mb-1">
-							<label for="validationCustom03">What is bothering you?</label><span style="color: red !important; display: inline; float: none;">*</span>
+							<label for="validationCustom03">what would you like to share?</label><span style="color: red !important; display: inline; float: none;">*</span>
 							<input type="text" name="question" maxlength="200" class="form-control" id="validationCustom03" placeholder="Please write what bothers you" required>
 							<div class="invalid-feedback">
-								Please write what bothers you
+								Please write what you would like to share
 							</div>
 						</div>
 
