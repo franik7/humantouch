@@ -36,7 +36,7 @@
 				<form action="assets/process.php" method="post" enctype="multipart/form-data" class="needs-validation" novalidate>
 					<div class="form-row half-left">
 						<div class="col mb-1 ">
-							<h2><b>What We Do</b></h2>
+							<h2><b>We are the Human Touch</b></h2>
 							<p>Life is not always easy. If you need a human touch, let us know. Fill out the form below and we will mail you a letter or a postcard at no cost. Your nickname, country, and picture (if you choose to upload one) will be displayed on our History page. This is it.</p>
 							<h2><b>Enter Your Info</b></h2>
 							<label for="validationCustom01">Name</label>
