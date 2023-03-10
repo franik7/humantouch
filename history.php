@@ -44,7 +44,7 @@ how to implement default image if no image is selected
 		<tr>
 			<td>'.$i.'</td>';
 
-			if( substr($v['img'], -3, 3) == 'jpg' || substr($v['img'], -3, 3) || substr($v['img'], -3, 3) == 'gif' || substr($v['img'], -4, 4) == 'jpeg') {
+			if( substr($v['img'], -3, 3) == 'jpg' || substr($v['img'], -3, 3) == 'png' || substr($v['img'], -3, 3) == 'gif' || substr($v['img'], -4, 4) == 'jpeg' || substr($v['img'], -4, 4) == 'webp') {
 				echo '<td><img src="assets/'.$v['img'].'"></td>';
 			}
 			else {

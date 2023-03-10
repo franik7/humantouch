@@ -65,8 +65,8 @@
 							</div>
 						</div>
 						<div class="col mb-1">
-							<label for="validationCustom03">what would you like to share?</label><span style="color: red !important; display: inline; float: none;">*</span>
-							<input type="text" name="question" maxlength="200" class="form-control" id="validationCustom03" placeholder="Please write what bothers you" required>
+							<label for="validationCustom03">What would you like to share?</label><span style="color: red !important; display: inline; float: none;">*</span>
+							<input type="text" name="question" maxlength="200" class="form-control" id="validationCustom03" placeholder="Please write what you would like to share" required>
 							<div class="invalid-feedback">
 								Please write what you would like to share
 							</div>
@@ -108,12 +108,11 @@
 
 	<!-- Start of Middle Section / Image + Text -->
 	<div class="container-fluid">
-		<div class="row info">
-			<div class="col-lg-5 g-0 half-left-middle">
+		<div class="row info order1">
+			<div class="col-lg-6 g-0 half-left-middle">
 				<img src="assets/img/image1.jpg">
 			</div>
-			<div class="col-lg-1">
-			</div>
+
 			<div class="col-lg-6 half-right-middle">
 				<p>“The human touch is that little snippet of physical affection that brings a bit of comfort, support, and kindness. It doesn’t take much from the one who gives it, but can make a huge difference in the one who receives it.” </p>
 			</div>
@@ -126,11 +125,10 @@
 	<!-- Start of Bottom Section / Image + Text -->
 	<div class="container-fluid">
 		<div class="row info order">
-			<div class="col-lg-5 half-right-middle">
+			<div class="col-lg-6 half-right-middle">
 				<p>“During bad circumstances, which is the human inheritance, you must decide not to be reduced. You have your humanity, and you must not allow anything to reduce that. We are obliged to know we are global citizens. Disasters remind us we are world citizens, whether we like it or not.” </p>
 			</div>
-			<div class="col-lg-1">
-			</div>
+
 			<div class="col-lg-6 g-0 half-left-middle">
 				<img src="assets/img/image2.jpg">
 			</div>
