@@ -11,7 +11,7 @@ body {
 label,
 input,
 p {
-	font-size: 16px;
+	font-size: 20px;
 }
 
 table {
@@ -28,7 +28,7 @@ table td {
 }
 
 table tr th {
-	border: 2px #5A5A5A solid;
+	border: 2px #737373 solid;
 	padding: 10px;
 }
 
@@ -105,6 +105,31 @@ font-size: 20px;
 	padding: 0%;
 }
 
+.historyhr {
+	margin-top: 0%;
+	padding-top: 0%;
+}
+
+.fa-regular {
+  color: #737373;
+}
+
+.mid {
+	text-align: center;
+	justify-content: center;
+	justify-items: center;
+	padding-top: 8px;
+}
+
+.websitelink {
+	color: #737373;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+.footertextsize {
+	font-size: 20px;
+}
 
 @media only screen and (max-width: 991px) {
 
@@ -184,39 +209,7 @@ font-size: 20px;
 		width: 100%;
 
 	}
-
-
-
-
-
-/*
-	.half-right-middle img {
-		object-fit: contain;
-		padding-top: 0%;
-		display: flex;
-		flex-direction: column;
-		height: 100%;
-	}
-
-	.half-left-middle img {
-		object-fit: contain;
-		padding-top: 0%;
-		display: flex;
-		flex-direction: column;
-		height: 100%;
-	}
-*/
-
-
-/*
-	.half-left-bottom img {
-		object-fit: contain;
-		padding-top: 0%;
-		display: flex;
-		flex-direction: column;
-		height: 100%;
 }
-*/
-}
+
 
 

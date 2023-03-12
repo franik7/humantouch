@@ -26,14 +26,14 @@ how to implement default image if no image is selected
 <body>
 	<div>
 
-		<hr>
+		<hr class = "historyhr">
 		<table>
 			<tr>
 				<th>ID</th>
-				<th>IMAGE</th>
-				<th>NICKNAME</th>
-				<th>COUNTRY</th>
-				<th>SENT</th>
+				<th>Image</th>
+				<th>Nickname</th>
+				<th>Country</th>
+				<th>Sent</th>
 			</tr>
 			<?php
 		$d = file_get_contents("assets/data.json");
@@ -76,6 +76,9 @@ how to implement default image if no image is selected
 	</center>
 
 	<?php require_once('assets/partials/footer.php');?>
+
+	<div class = "mid">Website by <a class = "websitelink" href='http://frants.netlify.app' target="blank">Frants</a>
+		</div>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 

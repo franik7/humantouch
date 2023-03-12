@@ -1,6 +1,7 @@
-<hr>
+
+	<hr class = "midsectionhr">
 <footer>
-	<a href="index.php">HOME</a> | <a href="history.php">HISTORY</a>
 	<br>
-	<a href="https://frants.netlify.app/" target="blank">Website by Frants</a>
+	<a class = "footertextsize" href="index.php">Home</a> | <a class = "footertextsize" href="history.php">History</a>
 </footer>
+
